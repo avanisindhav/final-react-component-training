@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heroSection {
+  max-width: 100vw; /* Maximum width of 100% of the viewport width */
+  min-height: 100vh;
+  border: 1px solid black;
+}
+
+.container {
+  padding: 20px;
+}
+.theme-toggle-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999; /* Ensure the button is above other content */
+}
+
+.theme-toggle-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  outline: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.heroSection {
+  /* Default styling for both themes */
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.theme-toggle-button:hover {
+  background-color: #555;
+}
+
+.theme-toggle-button:hover {
+  background-color: #555;
+}
+
+/* Dark Theme */
+.theme-toggle-button.white {
+  background-color: #333;
+  color: #fff;
+}
+
+.heroSection.black {
+  background-color: #333;
+  color: #fff;
+}
+
+.heroSection.black h1 {
+  color: #fff;
+}
+
+/* Light Theme */
+.theme-toggle-button.white {
+  background-color: #fff;
+  color: #333;
+}
+
+.heroSection.white {
+  background-color: #fff;
+  color: #333;
+}
+
+.heroSection.white h1 {
+  color: #333;
+}
+
+.theme-toggle-button.black:hover {
+  background-color: #eee;
+}
+
+.theme-toggle-button.white {
+  background-color: #333;
+  color: #fff;
+}
+
+.heroSection.black {
+  background-color: #333;
+  color: #fff;
+}
+
+.heroSection.black h1 {
+  color: #fff;
+}
+
+.heroSection.black h4,
+.heroSection.black p {
+  color: #ccc; /* Adjust the color for h3 and p in the dark theme */
+}
+
+/* Light Theme */
+.theme-toggle-button.black {
+  background-color: #fff;
+  color: #333;
+}
+
+.heroSection.white {
+  background-color: #fff;
+  color: #333;
+}
+
+.heroSection.white h1 {
+  color: #333;
+}
+
+.heroSection.white h4,
+.heroSection.white p {
+  color: #555; /* Adjust the color for h3 and p in the light theme */
+}
+
+.theme-toggle-button.white:hover {
+  background-color: #eee;
+}

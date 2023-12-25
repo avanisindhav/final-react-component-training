@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+:root {
+  font-weight: 400;
+  font-size: 16px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  box-sizing: border-box;
+  --main-text-color: #333;
+  --background-color: #ffffff;
+  --blue: rgba(0, 86, 255, 1);
+  --button-blue-background: rgba(0, 86, 255, 1);
+  --button-text: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem; /* 64px / 16px = 4rem */
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

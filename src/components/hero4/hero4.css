@@ -1,0 +1,46 @@
+.hero4-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+#hero4.heroSection {
+  padding: 0;
+}
+
+.hero4-content-wrapper {
+  margin: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.hero4-content-wrapper h1 {
+  font-family: Montserrat;
+  font-size: 120px;
+  font-weight: 700;
+  line-height: 136px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.hero4-content-wrapper p {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 24px 0 24px 0;
+}
+
+.hero4-content-address {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 12px 0 12px 0;
+}

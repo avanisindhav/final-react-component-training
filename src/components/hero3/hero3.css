@@ -1,0 +1,47 @@
+.hero3-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.hero3-img-container,
+.hero3-content-container {
+  width: 50%;
+}
+
+.hero3-content-container {
+  flex: 1; /* Takes up all available space */
+}
+
+.hero3-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+}
+
+.hero_03_content {
+  height: 100%;
+  padding: 8vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+@media (max-width: 768px) {
+  .hero3-container {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 80px 20px;
+    gap: 100px;
+  }
+
+  .hero3-img-container,
+  .hero3-img-container {
+    margin: 0px;
+    height: 50vh;
+    width: 100% !important;
+    flex-shrink: 1;
+    z-index: 11111111111;
+  }
+}
